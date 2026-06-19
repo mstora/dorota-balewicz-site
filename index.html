@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dorota Balewicz — Product Designer focused on materials, sustainability and implementation.</title>
+  <meta name="description" content="Dorota Balewicz — polska projektantka produktu i wnętrz. 8 lat pracy z materiałami z recyklingu, R&D i wdrożeniami." />
+  <meta property="og:title" content="Dorota Balewicz — Product & Interior Designer" />
+  <meta property="og:description" content="Projektuję produkty, wnętrza i obiekty — od szkicu po wdrożenie." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav id="nav" class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-brand">DOROTA BALEWICZ</a>
+      <ul class="nav-links">
+        <li><a href="#prace" data-section="prace">Prace</a></li>
+        <li><a href="#o-mnie" data-section="o-mnie">O mnie</a></li>
+        <li><a href="#uslugi" data-section="uslugi">Usługi</a></li>
+        <li><a href="#kontakt" data-section="kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <video class="hero-video" src="https://res.cloudinary.com/douinpabh/video/upload/q_auto/f_auto/v1781087922/loreal_brandstorm_behind-the-scenes_tlbia8.mp4" autoplay muted loop playsinline preload="auto"></video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-inner">
+        <span class="hero-eyebrow">DRIVEN BY CURIOSITY. GUIDED BY MAKING.</span>
+        <h1 class="hero-title">
+          Projektuję <span class="hero-flash hero-flash-1">produkty</span>, <span class="hero-flash hero-flash-2">obiekty</span> i <span class="hero-flash hero-flash-3">materiały</span>.<br />
+          Od szkicu po wdrożenie.
+        </h1>
+        <p class="hero-lead">Wieloletnie doświadczenie w pracy z materiałami, produkcją i klientami pozwala mi łączyć kreatywność z technologiczną wykonalnością. Specjalizuję się w zrównoważonym projektowaniu oraz material-driven design.</p>
+        <div class="hero-cta">
+          <a href="#prace" class="btn btn-light">Zobacz prace</a>
+          <a href="#kontakt" class="btn btn-outline">Kontakt</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WSPÓŁPRACE -->
+  <section class="collab">
+    <div class="collab-label"><span class="small-caps muted">Doświadczenie zdobywane przy projektach dla</span></div>
+    <div class="logo-marquee">
+      <div class="logo-marquee-track" id="logo-track"></div>
+    </div>
+  </section>
+
+  <!-- O MNIE -->
+  <section id="o-mnie" class="section">
+    <div class="container">
+      <span class="small-caps muted block mb-12">02 — O mnie</span>
+      <div class="grid grid-2 gap-16">
+        <div class="values-list">
+          <div class="value-item"><h3>Materiały i zrównoważony design</h3><p>Pracuję z tworzywami z recyklingu, surowcami naturalnymi i technologiami cyrkularnymi. Znam ich ograniczenia i możliwości, nie tylko w teorii.</p></div>
+          <div class="value-item"><h3>End-to-end</h3><p>Od briefu przez R&amp;D i prototypy, po nadzór nad produkcją i wdrożenie. Znam każdy etap wdrażania produktu, włącznie z działaniami z bardzo niestandardowymi rozwiązaniami materiałowymi i technologicznymi.</p></div>
+          <div class="value-item"><h3>Interdyscyplinarność</h3><p>Projektuję produkty, materiały, wnętrza i obiekty, swobodnie poruszając się między różnymi skalami i branżami. To nie rodzaj projektu definiuje moją pracę, lecz konsekwentne podejście do procesu, materiału i wdrożenia.</p></div>
+        </div>
+        <div>
+          <span class="small-caps muted block mb-8">Mój proces</span>
+          <ol class="process-list">
+            <li><span class="dot dot-active"></span><p>Deep search — inspiracje z różnych dziedzin</p></li>
+            <li><span class="dot"></span><p>Koncepcje — wielokierunkowe rozwiązania</p></li>
+            <li><span class="dot"></span><p>Fokus — skupienie się na wybranej ścieżce</p></li>
+            <li><span class="dot"></span><p>Produkcja — ścisła współpraca z technologami</p></li>
+            <li><span class="dot"></span><p>Ewaluacja — podsumowanie procesu i wyciąganie wniosków</p></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRACE -->
+  <section id="prace" class="section">
+    <div class="container">
+      <span class="small-caps muted block mb-8">03 — Wybrane prace</span>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="Wszystkie">Wszystkie</button>
+        <button class="filter" data-filter="Produkt">Produkt</button>
+        <button class="filter" data-filter="Trofea">Trofea</button>
+        <button class="filter" data-filter="Wzory">Wzory</button>
+        <button class="filter" data-filter="Materiały">Materiały</button>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- MATERIAŁY -->
+  <section class="section section-beige">
+    <div class="container grid grid-2 gap-16 items-center">
+      <div class="materials-grid">
+        <img class="materials-wide" src="/assets/specjalizacja-03.jpeg" alt="Prelekcja Doroty Balewicz o materiałach cyrkularnych" loading="lazy" />
+        <img src="/assets/specjalizacja-01.jpeg" alt="Detal materiału z recyklingu — niebieskie granulki" loading="lazy" />
+        <img src="/assets/specjalizacja-02.jpeg" alt="Masuria — materiał z sznurków rolniczych i pocztówki Bee Saving Paper" loading="lazy" />
+      </div>
+      <div>
+        <span class="small-caps muted block mb-6">Specjalizacja</span>
+        <h2 class="h-large mb-6">Materiał jako punkt wyjścia</h2>
+        <p class="muted mb-8 lead">Pracuję z surowcami wtórnymi, tworzywami z recyklingu i materiałami naturalnymi. Znam ich ograniczenia i możliwości — nie z teorii, ale z lat pracy z technologami i w produkcji. Kompozycja materiałowa to dla mnie nie efekt końcowy, ale punkt startowy projektu.</p>
+        <div class="tag-row mb-6">
+          <span class="tag tag-strong">Tworzywa postconsumer</span>
+          <span class="tag tag-strong">Sznurki rolnicze</span>
+          <span class="tag tag-strong">Materiały naturalne</span>
+          <span class="tag tag-strong">Badania i R&amp;D</span>
+        </div>
+        <p class="muted italic small">Prelegentka na konferencjach o materiałach cyrkularnych i zrównoważonym wzornictwie</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- USŁUGI -->
+  <section id="uslugi" class="section">
+    <div class="container">
+      <span class="small-caps muted block mb-6">05 — Usługi</span>
+      <h2 class="h-large mb-16">Co mogę dla Ciebie zrobić</h2>
+      <div class="grid grid-3 services">
+        <div class="service">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          <h3>Projektowanie produktu</h3>
+          <p>Meble, akcesoria, obiekty i kolekcje — od pierwszego szkicu po nadzór nad wdrożeniem. Współpracuję z działami R&amp;D i produkcją, dbając o to, żeby projekt był możliwy do zrealizowania w założonym budżecie i czasie.</p>
+        </div>
+        <div class="service">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+          <h3>Doradztwo materiałowe i R&amp;D</h3>
+          <p>Dobór surowców, praca z materiałami cyrkularnymi i wtórnymi, budowanie kompozycji materiałowych i kolekcji. Wspieram firmy na etapie badań i rozwoju — od poszukiwania dostawców po prototypowanie i testy.</p>
+        </div>
+        <div class="service">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="19" cy="13" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="10" cy="19" r="2.5"/><path d="M12 2a10 10 0 1 0 10 10c0-1.1-.9-2-2-2h-2a3 3 0 0 1-3-3V5a3 3 0 0 0-3-3z"/></svg>
+          <h3>Kolekcje wzornicze i dekor</h3>
+          <p>Projektowanie wzorów drukowanych, kolekcji dekorów i kolorystyki dla producentów materiałów wykończeniowych. Doświadczenie z panelami ściennymi, elewacyjnymi i okładzinami wewnętrznymi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NAGRODY -->
+  <section class="section">
+    <div class="container">
+      <span class="small-caps muted block mb-12">06 — Nagrody</span>
+      <ul class="awards" id="awards-list"></ul>
+    </div>
+  </section>
+
+  <!-- KONTAKT-INTRO (portrait) -->
+  <section class="section section-bordered">
+    <div class="container portrait-grid">
+      <img src="/assets/dorota-balewicz.jpg" alt="Dorota Balewicz — portret" loading="lazy" class="portrait-img" />
+      <div>
+        <span class="small-caps muted block mb-6">O mnie</span>
+        <h2 class="h-large mb-8">Ciekawość i otwartość na różnorodne dziedziny kształtują moje podejście do projektowania.</h2>
+        <p class="muted mb-6 lead">Wykształcenie zdobywałam w Polsce oraz na Politecnico di Milano, gdzie rozwinęłam zamiłowanie do projektowania materiałów, innowacji w biznesie i współpracy z inżynierami. To doświadczenie — w połączeniu z wieloletnią pracą w R&amp;D, licznymi kursami z zakresu AI i dizajnu inkluzywnego — ukształtowało moje szerokie spojrzenie projektowe i elastyczne podejście do każdego projektu. Specjalizuję się w zrównoważonym designie i materiałach cyrkularnych, działając na każdym etapie procesu — od pierwszego szkicu po wdrożenie produkcyjne.</p>
+        <p class="accent">dorotabalewicz.pl</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt" class="section section-dark">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="h-large mb-6 light">Porozmawiajmy.</h2>
+        <p class="mb-10 lead grey">Szukasz projektanta do współpracy? Napisz do mnie.</p>
+        <a href="mailto:dorota@dorotabalewicz.pl" class="contact-email">dorota@dorotabalewicz.pl</a>
+        <p class="grey mb-8">+48 502 524 853</p>
+        <div class="social-row">
+          <a href="mailto:dorota@dorotabalewicz.pl" aria-label="Email" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-row">
+      <span>© 2025 Dorota Balewicz</span>
+      <span>dorota@dorotabalewicz.pl</span>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" hidden>
+    <button class="modal-close" id="modal-close" aria-label="Zamknij">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>
