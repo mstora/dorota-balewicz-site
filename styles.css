@@ -5,6 +5,7 @@
   --accent-green: #B85C38;
   --beige: oklch(0.952 0.008 80);
   --hairline: oklch(0.85 0 0);
+  --footer-bg: #341C1C;
 }
 
 @font-face {
@@ -77,7 +78,7 @@ h2, h3 { font-family: "Paneuropa1931 DemiBoldText"; font-weight: 400; }
 @media (min-width: 768px) { .section { padding: 128px 40px; } }
 .section-beige { background: var(--beige); }
 .section-bordered { border-top: 0.5px solid var(--hairline); }
-.section-dark { background: var(--muted-ink); color: var(--background); }
+.section-dark { background: var(--footer-bg); color: var(--background); }
 
 /* NAV */
 .nav {
@@ -295,7 +296,7 @@ h2, h3 { font-family: "Paneuropa1931 DemiBoldText"; font-weight: 400; }
   word-break: break-all; transition: opacity 0.2s;
 }
 .contact-email:hover { opacity: 0.7; }
-.social-row { display: flex; gap: 12px; }
+.social-row { display: flex; flex-direction: column; gap: 12px; }
 .social-btn {
   width: 44px; height: 44px;
   display: inline-flex; align-items: center; justify-content: center;

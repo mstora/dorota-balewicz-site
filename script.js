@@ -133,6 +133,119 @@ const PROJECTS = [
       { src: "assets/boomplastic-mat-06.jpeg", label: "Boomplastic — panel czarno-biały" },
     ],
   },
+  {
+    name: "4Youth", meta: "4Youth", client: "4Youth", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Forma statuetki wycięta w całości z tworzywa pochodzącego z recyklingu. Nietypowy dla statuetek materiał podkreśla innowacyjny charakter konkursu oraz odwagę w poszukiwaniu nowych rozwiązań. ",
+    photos: [
+      { src: "assets/4you-naj-design.jpg", label: "4Youth" }
+    ],
+  },
+  {
+    name: "Big City Life", meta: "Big City Life", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Seria unikatowych statuetek tworzących panoramę Paryża. Każdy z laureatów otrzymał własny fragment miasta, a wszystkie trofea ustawione razem odtwarzały charakterystyczną linię paryskiej zabudowy. Połączenie drewna z tworzywem pochodzącym z recyklingu odpadów produkcyjnych podkreśla dialog między nowoczesnym projektowaniem a tradycyjnym rzemiosłem.",
+    photos: [
+      { src: "assets/loreal_recykling_dorota-balewicz_naj-design.jpeg", label: "Big City Life — NAJ Design" },
+      { src: "assets/trofea-04.jpg", label: "Big City Life — NAJ Design" },
+    ],
+  },
+  {
+    name: "Conquer the Peaks", meta: "Conquer the Peaks", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Zestaw eleganckich, unikatowych statuetek wykonanych z drewna i szkła. Każdy z laureatów otrzymał niepowtarzalny egzemplarz, a wszystkie trofea ustawione razem tworzyły spójną kompozycję nawiązującą do górskiego krajobrazu. Indywidualne wyróżnienia połączyły się w jedną symboliczną całość.",
+    photos: [
+      { src: "assets/poland_baltic_loreal_brandstorm_trophies.jpg", label: "Conquer the Peaks — NAJ Design" },
+      { src: "assets/trofea-05.jpg", label: "Conquer the Peaks — NAJ Design" },
+    ],
+  },
+  {
+    name: "Go with the Flow", meta: "Go with the Flow", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Oficjalne trofeum międzynarodowych finałów konkursu, rozwijane i odświeżane na przestrzeni kolejnych edycji. Forma inspirowana fryzjerstwem składa się z trzech łuków symbolizujących członków zwycięskiej drużyny. Zaprogramowane podświetlenie LED pozwala na wyświetlanie różnych kolorów i sekwencji świetlnych, a każda edycja zyskuje nową interpretację poprzez zmianę materiałów, kolorystyki i efektów świetlnych.",
+    photos: [
+      { src: "assets/go-with-the-flow.jpeg", label: "Go with the Flow — NAJ Design" },
+      { src: "assets/loreal_flow_trophy.jpeg", label: "Go with the Flow — NAJ Design" },
+      { src: "assets/dorota-balewicz-works-25.jpg", label: "Go with the Flow — NAJ Design" },
+    ],
+  },
+  {
+    name: "Terraformation", meta: "Terraformation", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Kolekcja ręcznie wykonywanych statuetek powstających z połączenia metalu, betonu oraz elementów pochodzących z upcyclingu. W projektach wykorzystano odpady z plexi, szklane kulki z odzysku oraz autorskie kompozycje zatopione w żywicy epoksydowej. Każda z form jest unikatowa i pokazuje, jak materiały zyskują nowe życie w formie eleganckich trofeów. ",
+    photos: [
+      { src: "assets/cosmic_najdesign_loreal_handmade_trophy_waste_recycling_set_2-scaled.jpg", label: "Terraformation — NAJ Design" },
+    ],
+  },
+  {
+    name: "VHS", meta: "VHS", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Statuetka inspirowana kultową kasetą VHS, zaprojektowana jako współczesna interpretacja symbolu kina. Wykonana z tworzywa pochodzącego z recyklingu, łączy nostalgię z nowoczesnym podejściem do projektowania i odpowiedzialnym wykorzystaniem materiałów.",
+    photos: [
+      { src: "assets/cosmic_najdesign_loreal_handmade_trophy_waste_recycling_set_2-scaled.jpg", label: "VHS — NAJ Design" },
+    ],
+  },
+  {
+    name: "Work Anniversary", meta: "Work Anniversary", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Pamiątkowa statuetka wykonana z ceramiki, metalu i szkła akrylowego. Centralnym elementem kompozycji jest ręcznie wykonane ceramiczne serce – symbol uznania, zaangażowania i wdzięczności za 10 lat pracy. ",
+    photos: [
+      { src: "assets/anniversary-trophy-bespoke-2.jpeg", label: "Work Anniversary" },
+    ],
+  },
+  {
+    name: "You are the Winner", meta: "You are the Winner", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Trofea",
+    description: "Statuetki wykorzystujące oryginalne szklane neony, osadzone w formie inspirowanej retro telewizorem. Połączenie charakterystycznego światła neonowego z nostalgiczną bryłą tworzy wyrazistą formę, nawiązującą do estetyki dawnych ekranów i kultury pop.",
+    photos: [
+      { src: "assets/2021_winner-trophies.jpg", label: "You are the Winner" },
+    ],
+  },
+  {
+    name: "Dekory", meta: "Dekory", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Wzory",
+    description: "Autorskie wzory projektowane z myślą o różnorodnych mediach i technologiach zadruku. Kompozycje powstają na bazie własnoręcznie tworzonych materiałów – fotografii, rysunków, kolaży i eksperymentów z fakturą.",
+    photos: [
+      { src: "assets/banana leaves-dorota-balewicz-small.jpeg", label: "Banana Leaves" },
+      { src: "assets/konfetti-dorota balewicz.jpg", label: "Konfetti" },
+      { src: "assets/liscie-dorota-balewicz.jpg", label: "Liście" },
+    ],
+  },
+  {
+    name: "Geometric Linen", meta: "Geometric Linen", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Wzory",
+    description: "Wzór inspirowany tradycyjnym tkactwem oraz rytmem geometrycznych splotów. Powtarzalna kompozycja łączy rzemieślniczy charakter z nowoczesnym, minimalistycznym wyrazem. ",
+    photos: [
+      { src: "assets/vox_creative_04_1108_geometric_linen_2_kerradeco.jpg", label: "Geometric Linen" },
+    ],
+  },
+  {
+    name: "Geometric Wood", meta: "Geometric Wood", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Wzory",
+    description: "Autorski wzór inspirowany tradycyjnym snycerstwem oraz śladami pozostawianymi przez narzędzia rzeźbiarskie w drewnie. ",
+    photos: [
+      { src: "assets/wzory_cyfrowe_geometric-wood_vox_dorota-balewicz.jpeg", label: "Geometric Wood" },
+    ],
+  },
+  {
+    name: "Typography", meta: "Typography", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Wzory",
+    description: "Autorski wzór stworzony z wyciętych fragmentów liter i napisów pochodzących ze starych gazet. Kompozycja inspirowana estetyką retro, uzupełniona kolorystyką czerpanego papieru, nadaje dekorowi wyrazisty, analogowy charakter. ",
+    photos: [
+      { src: "assets/wzory_cyfrowe_geometric_typoghraphy_kerradeco_vox_dorota-balewicz.jpeg", label: "Typography" },
+    ],
+  },
+  {
+    name: "Wzory na panele elewacyjne", meta: "Wzory na panele elewacyjne", client: "L'Oréal", year: "2024",
+    tags: ["tag", "tag", "tag"], cat: "Wzory",
+    description: "Projektowanie kolekcji dekorów oraz opracowywanie kierunków rozwoju wzornictwa dla produktów wykończeniowych. Doświadczenie w nadzorowaniu wdrożeń, projektowaniu walców odpowiedzialnych za tłoczenie struktur i nanoszenie nadruków oraz rozwijaniu innowacyjnych technologii zadruku. Połączenie projektowania wzorniczego z wiedzą o procesach produkcyjnych pozwala tworzyć rozwiązania gotowe do wdrożenia na skalę przemysłową.",
+    photos: [
+      { src: "assets/dorota-balewicz-projekty-dla-vox (1).jpg", label: "Projekty" },
+      { src: "assets/kerrafront_vox.jpg", label: "Kerrafront" },
+      { src: "assets/panel-lamelowy-fronto-dab-miodowy3.jpg", label: "Dąb miodowy" },
+      { src: "assets/panel-lamelowy-fronto-dab-winchester-new.jpg", label: "Dąb winchester" },
+    ],
+  }
 ];
 
 const AWARDS = [
