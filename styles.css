@@ -52,6 +52,8 @@ h2, h3 { font-family: "Paneuropa1931 DemiBoldText"; font-weight: 400; }
 .accent { color: var(--accent-green); font-size: 13px; }
 .light { color: var(--background); }
 .grey { color: oklch(0.75 0 0); }
+.mb-2 { margin-bottom: 8px; }
+.mb-4 { margin-bottom: 16px; }
 .mb-6 { margin-bottom: 24px; }
 .mb-8 { margin-bottom: 32px; }
 .mb-10 { margin-bottom: 40px; }
@@ -289,6 +291,7 @@ h2, h3 { font-family: "Paneuropa1931 DemiBoldText"; font-weight: 400; }
 
 /* CONTACT */
 .contact-grid { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; }
+.contact-wrapper { display: flex; flex-direction: row; gap: 12px;}
 @media (min-width: 768px) { .contact-grid { grid-template-columns: 60% 40%; } }
 .contact-email {
   display: block; font-size: clamp(22px, 3vw, 32px);
