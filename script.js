@@ -13,6 +13,7 @@ const PROJECTS = [
   {
     name: "Lampa Madonna", meta: "Boomplastic, 2024", client: "Boomplastic", year: "2024",
     tags: ["recykling", "oświetlenie", "Boomplastic"], cat: "Produkt",
+    featured: true,
     description: "Lampa wykonana z ręcznie formowanego oraz toczonego materiału z plastiku z recyklingu. Oprawę stanowią dwa krążki wykonane również z tworzywa postkonsumenckiego. Nigdy nie będzie dwóch takich samych egzemplarzy — każdy element jest unikatowy i jedyny w swoim rodzaju.",
     photos: [
       { src: "assets/madonna-01.jpg", label: "Lampa Madonna 01" },
@@ -23,6 +24,7 @@ const PROJECTS = [
   {
     name: "Masuria", meta: "NAJ Design / Boomplastic, 2021", client: "NAJ Design + Boomplastic", year: "2021",
     tags: ["recykling", "przestrzeń publiczna", "nagroda", "Milan Design Week"], cat: "Produkt",
+    featured: false,
     description: "Projekt materiału oraz ławki do przestrzeni publicznych. MASURIA to całościowe opracowanie obejmujące pełny proces projektowy — od koncepcji i stworzenia innowacyjnego materiału po finalny produkt. Projekt odpowiada na problem zagospodarowania odpadów w postaci sznurków tworzywowych wykorzystywanych w rolnictwie. Wyróżnienie w światowym konkursie RoGuiltless Plastic 2021. Pokazany podczas Milan Design Week 2021 oraz w Muzeum w Doha w Katarze.",
     photos: [
       { src: "assets/masuria-01.jpg", label: "Masuria 01" },
@@ -34,6 +36,7 @@ const PROJECTS = [
   {
     name: "Kolekcja Soform", meta: "VOX, 2022", client: "VOX", year: "2022",
     tags: ["akustyka", "panele ścienne", "VOX", "kolekcja"], cat: "Produkt",
+    featured: true,
     description: "Projekt kolekcji modułowych paneli ściennych, które łączą funkcję dekoracyjną z właściwościami akustycznymi. Panele zaprojektowano jako samodzielne elementy aranżacyjne, dostępne w gotowych zestawach umożliwiających łatwe komponowanie spójnych układów. Uzupełnieniem kolekcji są ozdobne listwy o dodatkowej funkcjonalności — pozwalające na ekspozycję zdjęć, zawieszenie rośliny lub probówki z olejkiem zapachowym.",
     photos: [
       { src: "assets/soform-01.jpg", label: "Soform 01" },
@@ -44,21 +47,18 @@ const PROJECTS = [
     ],
   },
   {
-    name: "Trofea", meta: "NAJ Design, 2019–2025", client: "NAJ Design", year: "2019–2025",
+    name: "Night in Paris", meta: "NAJ Design, 2023", client: "NAJ Design", year: "2023",
     tags: ["trofea", "L'Oréal", "NAJ Design", "rzemiosło"], cat: "Trofea",
-    description: "Spersonalizowane trofea dla światowego konkursu L'Oréal Brandstorm, projektowane i realizowane nieprzerwanie od 2019 roku. Każda edycja to nowa koncepcja — obiekty tworzone we współpracy z lokalnymi polskimi rzemieślnikami, zarówno ręcznie jak i z użyciem technologii. Część statuetek wykonana z odpadów plastikowych pochodzących bezpośrednio z fabryki L'Oréal.",
+    description: "Statuetki inspirowane Paryżem – miastem, w którym odbywają się finały konkursu Brandstorm. Grafika została wygrawerowana na kilku warstwach przezroczystego materiału, tworząc przestrzenną kompozycję. Podświetlenie wydobywa wygrawerowane linie i wzmacnia trójwymiarowy efekt. Bazę statuetki wykonano z plastiku pochodzącego z recyklingu.",
     photos: [
       { src: "assets/trofea-01.jpg", label: "Trofea L'Oréal Brandstorm 2023" },
-      { src: "assets/trofea-00.jpg", label: "L'Oréal Brandstorm 2026 — International Winner" },
-      { src: "assets/trofea-02.jpg", label: "Trofea L'Oréal Brandstorm 2024 — Flow" },
-      { src: "assets/trofea-03.jpg", label: "Trofea z recyklingu — skyline" },
-      { src: "assets/trofea-04.jpg", label: "Big City Life — NAJ Design" },
-      { src: "assets/trofea-05.jpg", label: "Trofea Poland & Baltic Hub 2019" },
+      { src: "assets/night in paris.jpeg", label: "Trofea L'Oréal Brandstorm 2023" }
     ],
   },
   {
     name: "Chmurnik", meta: "własny, 2019", client: "Projekt własny", year: "2019",
     tags: ["tkactwo", "Dutch Design Week", "tradycja", "rzemiosło"], cat: "Produkt",
+    featured: false,
     description: "Chmurnik to współczesna reinterpretacja tkactwa: mebel, którego forma jest jednocześnie krosnem. Rama siedziska służy jako osnowa, na której tka się tkaninę; to ona, nie konstrukcja, gra główną rolę. Projekt wyrasta z troski o zanikające rzemiosło i osobistej więzi z północno-wschodnią Polską: regionem bogatym w dziedzictwo tkackie, które rzadko trafia do szerszego obiegu. Chmurnik jest próbą nadania tej wartości współczesnej formy.",
     photos: [
       { src: "assets/chmurnik-01.jpg", label: "Chmurnik 01" },
@@ -71,6 +71,7 @@ const PROJECTS = [
   {
     name: "Nadczułość", meta: "własny, 2021", client: "Projekt własny", year: "2021",
     tags: ["inkluzywność", "neuroróżnorodność", "biżuteria"], cat: "Produkt",
+    featured: false,
     description: "Biżuteria dla osób z potrzebą stymulacji ruchowej dłoni (stimming). Stimming (czyli zachowania autostymulacyjne) pomaga osobom neuroróżnorodnym regulować układ nerwowy. Może służyć obniżeniu stresu, radzeniu sobie z nadmiarem bodźców, poprawie koncentracji albo wyrażaniu emocji, takich jak radość czy ekscytacja. Dzięki stimmingowi ciało i mózg łatwiej wracają do poczucia równowagi.",
     photos: [
       { src: "assets/nadczulosc-01.jpg", label: "Nadczułość — bransoleta" },
@@ -81,6 +82,7 @@ const PROJECTS = [
   {
     name: "Panele elewacyjne Fronto", meta: "VOX, 2022", client: "VOX", year: "2022",
     tags: ["elewacja", "panele", "VOX"], cat: "Produkt",
+    featured: false,
     description: "Panel oraz kolekcje dekorów. Odpowiednie opracowanie profilu umożliwia montaż zarówno w układzie pionowym jak i poziomym. Dodatkowo można go łączyć z innymi panelami elewacyjnymi VOX lub tworzyć harmonijne przejścia między różnymi płaszczyznami takimi jak ściana i sufit.",
     photos: [
       { src: "assets/fronto-01.jpg", label: "Fronto — realizacja elewacji" },
@@ -92,6 +94,7 @@ const PROJECTS = [
   {
     name: "Stolik Beetlejuice", meta: "Boomplastic, 2024", client: "Boomplastic", year: "2024",
     tags: ["recykling", "meble", "tworzywo postkonsumenckie"], cat: "Produkt",
+    featured: true,
     description: "Konstrukcja stolika umożliwia wysyłkę w formie flatpack oraz proste składanie przez indywidualnego użytkownika. Wykonany z płyty w 100% z recyklingu postkonsumenckiego.",
     photos: [
       { src: "assets/beetlejuice-01.jpeg", label: "Beetlejuice — stolik" },
@@ -100,20 +103,10 @@ const PROJECTS = [
     ],
   },
   {
-    name: "Wzory", meta: "VOX, 2022", client: "VOX", year: "2022",
-    tags: ["wzory cyfrowe", "panele ścienne", "VOX"], cat: "Wzory",
-    description: "Wzory cyfrowe przygotowane do druku na panelach ściennych. Inspirowane lnem i wytkanymi ręcznie splotami oraz snycerstwem i typografią.",
-    photos: [
-      { src: "assets/wzory-01.jpg", label: "Wzory cyfrowe — Geometric Linen" },
-      { src: "assets/wzory-02.jpeg", label: "Wzory cyfrowe — Geometric Wood" },
-      { src: "assets/wzory-03.jpeg", label: "Wzory cyfrowe — Typography" },
-      { src: "assets/wzory-04.jpg", label: "Wzory cyfrowe — Typography detal" },
-    ],
-  },
-  {
     name: "Materiał ze sznurków rolniczych Masuria", meta: "NAJ Design / Boomplastic, 2021",
     client: "NAJ Design + Boomplastic", year: "2021",
     tags: ["recykling", "materiał", "tworzywa postkonsumenckie"], cat: "Materiały",
+    featured: true,
     description: "Autorski materiał opracowany z odpadowych sznurków rolniczych z tworzyw sztucznych. Powstał w odpowiedzi na problem zagospodarowania trudnego do recyklingu odpadu z rolnictwa. Materiał posłużył jako baza do realizacji ławki MASURIA prezentowanej podczas Milan Design Week 2021 oraz w Muzeum w Doha w Katarze.",
     photos: [
       { src: "assets/masuria-mat-01.jpg", label: "Masuria — detal materiału" },
@@ -123,6 +116,7 @@ const PROJECTS = [
   {
     name: "Materiały Boomplastic", meta: "Boomplastic, 2024", client: "Boomplastic", year: "2024",
     tags: ["recykling", "tworzywa postkonsumenckie", "Boomplastic"], cat: "Materiały",
+    featured: false,
     description: "Rozwój i opracowywanie autorskich kompozycji materiałowych z tworzyw postkonsumenckich. Praca obejmuje dobór surowców, testy technologiczne oraz tworzenie palet kolorystycznych dla produktów Boomplastic.",
     photos: [
       { src: "assets/boomplastic-mat-01.jpeg", label: "Boomplastic — materiał brązowy" },
@@ -136,6 +130,7 @@ const PROJECTS = [
   {
     name: "Statuetki 4Youth", meta: "L'Oréal Groupe, 2025", client: "L'Oréal", year: "2025",
     tags: ["recykling", "tworzywa postkonsumenckie", "trofeum", "NAJ design"], cat: "Trofea",
+    featured: false,
     description: "Forma statuetki wycięta w całości z tworzywa pochodzącego z recyklingu. Nietypowy dla statuetek materiał podkreśla innowacyjny charakter konkursu oraz odwagę w poszukiwaniu nowych rozwiązań. ",
     photos: [
       { src: "assets/4you-naj-design.jpg", label: "4Youth" }
@@ -144,8 +139,11 @@ const PROJECTS = [
   {
     name: "Big City Life", meta: "L'Oréal Groupe, 2020", client: "L'Oréal Groupe", year: "2020",
     tags: ["Brandstorm", "recykling", "Paryż", "NAJ Design"], cat: "Trofea",
+    featured: true,
     description: "Seria unikatowych statuetek tworzących panoramę Paryża. Każdy z laureatów otrzymał własny fragment miasta, a wszystkie trofea ustawione razem odtwarzały charakterystyczną linię paryskiej zabudowy. Połączenie drewna z tworzywem pochodzącym z recyklingu odpadów produkcyjnych podkreśla dialog między nowoczesnym projektowaniem a tradycyjnym rzemiosłem.",
     photos: [
+      { src: "assets/big-city-life-naj-design-dorota-balewicz-2.jpeg", label: "Big City Life — NAJ Design" },
+      { src: "assets/big-city-life-naj-design-dorota-balewicz.jpeg", label: "Big City Life — NAJ Design" },
       { src: "assets/loreal_recykling_dorota-balewicz_naj-design.jpeg", label: "Big City Life — NAJ Design" },
       { src: "assets/trofea-04.jpg", label: "Big City Life — NAJ Design" },
     ],
@@ -153,6 +151,7 @@ const PROJECTS = [
   {
     name: "Conquer the Peaks", meta: "L'Oréal Poland, 2019", client: "L'Oréal Poland", year: "2019",
     tags: ["statuetka", "brandstorm", "Poland&Baltic Hub", "NAJ Design"], cat: "Trofea",
+    featured: false,
     description: "Zestaw eleganckich, unikatowych statuetek wykonanych z drewna i szkła. Każdy z laureatów otrzymał niepowtarzalny egzemplarz, a wszystkie trofea ustawione razem tworzyły spójną kompozycję nawiązującą do górskiego krajobrazu. Indywidualne wyróżnienia połączyły się w jedną symboliczną całość.",
     photos: [
       { src: "assets/poland_baltic_loreal_brandstorm_trophies.jpg", label: "Conquer the Peaks — NAJ Design" },
@@ -162,6 +161,7 @@ const PROJECTS = [
   {
     name: "Go with the Flow", meta: "L'Oréal Groupe, 2026", client: "L'Oréal Groupe", year: "2025",
     tags: ["brandstorm", "statuetka", "interaktywność","NAJ Design"], cat: "Trofea",
+    featured: true,
     description: "Oficjalne trofeum międzynarodowych finałów konkursu, rozwijane i odświeżane na przestrzeni kolejnych edycji. Forma inspirowana fryzjerstwem składa się z trzech łuków symbolizujących członków zwycięskiej drużyny. Zaprogramowane podświetlenie LED pozwala na wyświetlanie różnych kolorów i sekwencji świetlnych, a każda edycja zyskuje nową interpretację poprzez zmianę materiałów, kolorystyki i efektów świetlnych.",
     photos: [
       { src: "assets/go-with-the-flow.jpeg", label: "Go with the Flow — NAJ Design" },
@@ -172,6 +172,7 @@ const PROJECTS = [
   {
     name: "Terraformation", meta: "L'Oréal Groupe, 2022", client: "L'Oréal Groupe", year: "2022",
     tags: ["NAJ Design", "rzemiosło", "recykling", "statuetka"], cat: "Trofea",
+    featured: false,
     description: "Kolekcja ręcznie wykonywanych statuetek powstających z połączenia metalu, betonu oraz elementów pochodzących z upcyclingu. W projektach wykorzystano odpady z plexi, szklane kulki z odzysku oraz autorskie kompozycje zatopione w żywicy epoksydowej. Każda z form jest unikatowa i pokazuje, jak materiały zyskują nowe życie w formie eleganckich trofeów. ",
     photos: [
       { src: "assets/cosmic_najdesign_loreal_handmade_trophy_waste_recycling_set_2-scaled.jpg", label: "Terraformation — NAJ Design" },
@@ -180,14 +181,16 @@ const PROJECTS = [
   {
     name: "VHS", meta: "Ale Kino!, 2025", client: "Ale Kino!", year: "2025",
     tags: ["recykling", "statuetka", "boomplastic"], cat: "Trofea",
+    featured: false,
     description: "Statuetka inspirowana kultową kasetą VHS, zaprojektowana jako współczesna interpretacja symbolu kina. Wykonana z tworzywa pochodzącego z recyklingu, łączy nostalgię z nowoczesnym podejściem do projektowania i odpowiedzialnym wykorzystaniem materiałów.",
     photos: [
-      { src: "assets/cosmic_najdesign_loreal_handmade_trophy_waste_recycling_set_2-scaled.jpg", label: "VHS — NAJ Design" },
+      { src: "assets/vhs-ale-kino-dorota-balewicz.jpeg", label: "VHS — NAJ Design" },
     ],
   },
   {
     name: "With love from", meta: "2026", client: "", year: "2026",
     tags: ["statuetka", "ceramika", "NAJ Design"], cat: "Trofea",
+    featured: false,
     description: "Pamiątkowa statuetka wykonana z ceramiki, metalu i szkła akrylowego. Centralnym elementem kompozycji jest ręcznie wykonane ceramiczne serce – symbol uznania, zaangażowania i wdzięczności za 10 lat pracy. ",
     photos: [
       { src: "assets/anniversary-trophy-bespoke-2.jpeg", label: "Work Anniversary" },
@@ -196,6 +199,7 @@ const PROJECTS = [
   {
     name: "You are the Winner", meta: "L'Oréal Groupe, 2021", client: "L'Oréal Groupe", year: "2021",
     tags: ["statuetka", "neon", "NAJ Design"], cat: "Trofea",
+    featured: false,
     description: "Statuetki wykorzystujące oryginalne szklane neony, osadzone w formie inspirowanej retro telewizorem. Połączenie charakterystycznego światła neonowego z nostalgiczną bryłą tworzy wyrazistą formę, nawiązującą do estetyki dawnych ekranów i kultury pop.",
     photos: [
       { src: "assets/2021_winner-trophies.jpg", label: "You are the Winner" },
@@ -204,6 +208,7 @@ const PROJECTS = [
   {
     name: "Dekory", meta: "Projekty wzorów", client: "", year: "2019-2021",
     tags: ["tapety", "wzory cyfrowe", "pattern"], cat: "Wzory",
+    featured: false,
     description: "Autorskie wzory projektowane z myślą o różnorodnych mediach i technologiach zadruku. Kompozycje powstają na bazie własnoręcznie tworzonych materiałów – fotografii, rysunków, kolaży i eksperymentów z fakturą.",
     photos: [
       { src: "assets/banana leaves-dorota-balewicz-small.jpeg", label: "Banana Leaves" },
@@ -214,6 +219,7 @@ const PROJECTS = [
   {
     name: "Geometric Linen", meta: "VOX, 2020", client: "VOX", year: "2020",
     tags: ["tag", "tag", "tag"], cat: "Wzory",
+    featured: true,
     description: "Wzór inspirowany tradycyjnym tkactwem oraz rytmem geometrycznych splotów. Powtarzalna kompozycja łączy rzemieślniczy charakter z nowoczesnym, minimalistycznym wyrazem. ",
     photos: [
       { src: "assets/vox_creative_04_1108_geometric_linen_2_kerradeco.jpg", label: "Geometric Linen" },
@@ -222,6 +228,7 @@ const PROJECTS = [
   {
     name: "Geometric Wood", meta: "VOX, 2020", client: "VOX", year: "2020",
     tags: ["tag", "tag", "tag"], cat: "Wzory",
+    featured: false,
     description: "Autorski wzór inspirowany tradycyjnym snycerstwem oraz śladami pozostawianymi przez narzędzia rzeźbiarskie w drewnie. ",
     photos: [
       { src: "assets/wzory_cyfrowe_geometric-wood_vox_dorota-balewicz.jpeg", label: "Geometric Wood" },
@@ -230,6 +237,7 @@ const PROJECTS = [
   {
     name: "Typography", meta: "VOX, 2020", client: "VOX", year: "2020",
     tags: ["tag", "tag", "tag"], cat: "Wzory",
+    featured: true,
     description: "Autorski wzór stworzony z wyciętych fragmentów liter i napisów pochodzących ze starych gazet. Kompozycja inspirowana estetyką retro, uzupełniona kolorystyką czerpanego papieru, nadaje dekorowi wyrazisty, analogowy charakter. ",
     photos: [
       { src: "assets/wzory_cyfrowe_geometric_typoghraphy_kerradeco_vox_dorota-balewicz.jpeg", label: "Typography" },
@@ -238,6 +246,7 @@ const PROJECTS = [
   {
     name: "Wzory na panele elewacyjne", meta: "VOX, 2018-2021", client: "VOX", year: "",
     tags: ["elewacja", "wzory", "druk", "dekory"], cat: "Wzory",
+    featured: false,
     description: "Projektowanie kolekcji dekorów oraz opracowywanie kierunków rozwoju wzornictwa dla produktów wykończeniowych. Doświadczenie w nadzorowaniu wdrożeń, projektowaniu walców odpowiedzialnych za tłoczenie struktur i nanoszenie nadruków oraz rozwijaniu innowacyjnych technologii zadruku. Połączenie projektowania wzorniczego z wiedzą o procesach produkcyjnych pozwala tworzyć rozwiązania gotowe do wdrożenia na skalę przemysłową.",
     photos: [
       { src: "assets/dorota-balewicz-projekty-dla-vox (1).jpg", label: "Projekty" },
@@ -312,12 +321,14 @@ function renderAwards() {
 }
 
 // ===== Projects grid =====
-let activeFilter = "Wszystkie";
+let activeFilter = "Wyróżnione";
 
 function renderProjects() {
   const grid = $("#projects-grid");
   grid.innerHTML = "";
-  const visible = PROJECTS.filter((p) => activeFilter === "Wszystkie" || p.cat === activeFilter);
+  const visible = PROJECTS.filter((p) =>
+    activeFilter === "Wyróżnione" ? p.featured : p.cat === activeFilter
+  );
   for (const p of visible) {
     const card = el("article", { class: "project-card", "data-cat": p.cat });
     card.addEventListener("click", () => openModal(p));
