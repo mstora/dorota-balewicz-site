@@ -293,11 +293,17 @@ h2, h3 { font-family: "Paneuropa1931 DemiBoldText"; font-weight: 400; }
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 100px 300px;
-  column-gap: 32px;
-  row-gap: 40px;
+  grid-template-columns: 60px auto;
+  column-gap: 24px;
+  row-gap: 30px;
   align-items: center;
   margin: 0 auto;
+}
+.contact-grid p { font-size: 13px; text-wrap: wrap;}
+.contact-grid h3 { font-size: 22px; }
+
+@media (min-width: 768px) {
+  .contact-grid { grid-template-columns: 60px 1fr; }
 }
 
 .contact-grid > img,
