@@ -301,9 +301,9 @@ h2, h3 { font-family: "Paneuropa1931 DemiBoldText"; font-weight: 400; }
 }
 .contact-grid p { font-size: 13px; text-wrap: wrap;}
 .contact-grid h3 { font-size: 22px; }
-
 @media (min-width: 768px) {
   .contact-grid { grid-template-columns: 60px 1fr; }
+  .contact-grid h3 { font-size: 40px; }
 }
 
 .contact-grid > img,
